@@ -1,0 +1,162 @@
+body {
+    margin: 0em;
+    padding: 0em;
+    background-image: url(./Assets/backgroundCover.jpg);
+     
+    /* Center and scale the image nicely */
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0em 3em;
+    font-family: 'Kanit', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+nav img {
+    width: 5em;
+    cursor: pointer;
+}
+
+.menu {
+    margin-left: 15em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 4em;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+}
+
+.callIcon {
+    font-size: 3em;
+    color: #ffffff;
+    margin: 0%;
+}
+
+.callUs p {
+    margin: 0.2em;
+}
+
+hr {
+    width: 63%;
+    position: relative;
+    left: 14em;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.row1 h1 {
+    color: #ffffff;
+    font-size: 4em;
+    position: relative;
+    /* bottom: 1em; */
+    right: 0.5em;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.detailBox img {
+    width: 1.5em;
+}
+
+.detailBox {
+    width: 13.7em;
+    height: 8em;
+    padding: 1em 1.5em;
+    background-color: #304656;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.art {
+    width: 5.5em;
+    height: 2em;
+    text-align: center;
+    padding-top: 0.4em;
+    border-radius: 2em;
+    background-color: #ffffff;
+}
+
+.detailBox.upper {
+    position: relative;
+    /* left: 7em; */
+}
+
+.detailBox.lower {
+position: relative;
+right: 15em;
+}
+
+.lineDesign {
+    width: 80%;
+}
+
+.vl {
+    border-left: 0.16em solid #ffffff;
+    height: 5em;
+    position: absolute;
+    top: 10em;
+    left: 13em;
+  }
+
+.lineDesign.lower hr {
+    position: relative;
+    top: 0.1em;
+    left: 13.2em;
+}  
+
+.lineDesign p {
+    width: 1em;
+    height: 1em;
+    border-radius: 2em;
+    background-color: #ffffff;
+    position: absolute;
+
+}
+
+.lineDesign.upper p {
+    top: 13.4em;
+    left: 12.55em;
+}
+
+.lineDesign.lower p {
+    top: 2.6em;
+    left: 23em;
+}
+
+button {
+    border: 0.1em solid #ffffff;
+    padding: 0.5em 1em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.8em;
+    position: relative;
+    right: 4em;
+    bottom: 1em;
+    cursor: pointer;
+}
